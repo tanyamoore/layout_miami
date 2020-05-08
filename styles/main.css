@@ -270,7 +270,7 @@ a {
     margin-left: -50px; }
   .consultation__text {
     color: #3e3e3e;
-    width: 100%; }
+    width: 40%; }
     .consultation__text--label {
       color: #0075ff;
       font-weight: bold;
@@ -370,6 +370,8 @@ a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
+  .consultation__text {
+    width: 100%; }
   .consultation__form {
     width: 100%; }
   .testimonials__content {
