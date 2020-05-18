@@ -2,7 +2,7 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
 
-.burger__nav {
+.burger {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
   position: fixed;
@@ -12,22 +12,22 @@ h1 {
   height: 100vh;
   -webkit-transition: left 0.35s ease;
   transition: left 0.35s ease; }
-  .burger__nav .burger__closed {
+  .burger__closed {
     position: absolute;
     right: 0%; }
-    .burger__nav .burger__closed:checked .burger__nav {
+    .burger__closed:checked .burger {
       display: none;
       position: relative;
       margin-left: 250px; }
-  .burger__nav .burger__link {
+  .burger__link {
     color: #fff;
     font-size: 22px; }
-    .burger__nav .burger__link__link:hover {
+    .burger__link:hover {
       color: #9fadc2; }
-    .burger__nav .burger__link--phone, .burger__nav .burger__link--call {
+    .burger__link--phone, .burger__link--call {
       font-size: 12px;
       color: #fff; }
-  .burger__nav .burger__item:last-child {
+  .burger__item:last-child {
     color: #fff;
     line-height: 40px;
     border-bottom: 1px solid white; }
@@ -36,9 +36,9 @@ h1 {
   .menu__icon {
     display: none; } }
 
-.menu__icon:focus ~ .burger__nav,
-.menu__icon:checked ~ .burger__nav,
-.menu__icon:active ~ .burger__nav {
+.menu__icon:focus ~ .burger,
+.menu__icon:checked ~ .burger,
+.menu__icon:active ~ .burger {
   position: absolute;
   left: 0;
   top: 0;
