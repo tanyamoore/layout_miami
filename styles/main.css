@@ -442,14 +442,14 @@ h1 {
     font-size: 16px;
     line-height: 27px;
     color: #3e3e3e; }
-    .info__content--label {
-      margin-top: 0;
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 30px;
-      color: #0075ff; }
     .info__content--end {
       font-weight: bold; }
+  .info__label {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0075ff; }
 
 @media screen and (max-width: 800px) {
   .info {
