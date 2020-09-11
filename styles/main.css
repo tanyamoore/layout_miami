@@ -201,7 +201,8 @@ h1 {
     background-color: #f7f8ff;
     border: 1px solid #fff;
     margin-top: 16px;
-    outline: none; }
+    outline: none;
+    font-family: Roboto, Arial, sans-serif; }
   .contact__input--butt {
     background: #0075ff;
     border: #0075ff;
